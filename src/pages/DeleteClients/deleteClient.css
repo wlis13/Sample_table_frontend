@@ -1,0 +1,29 @@
+.container-list-delete {
+  margin-left: 10px;
+  background-color: rgb(75, 75, 145);
+  width: 250px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.container-list-delete button {
+  position: absolute;
+  right: 10px;
+  background-color: brown;
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  margin-top: -11px;
+  font-size: 13pt;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container-list-delete li {
+  color: white;
+  width: 100%;
+}

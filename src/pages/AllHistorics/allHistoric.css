@@ -1,0 +1,117 @@
+.container-all-historic {
+  background-color: rgb(219, 218, 218);
+  padding-bottom: 100px;
+}
+
+.container-header-all-historic {
+  position: sticky;
+  top: 0;
+  background-color: rgb(133, 181, 226);
+  padding: 15px;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 5px 5px 5px rgb(75, 75, 145);
+}
+
+.container-header-all-historic button {
+  margin-left: 60px;
+  padding: 8px 12px;
+  background-color: rgb(75, 75, 145);
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13pt;
+}
+
+.line-historic {
+  border-top: 5px solid black;
+  border-radius: 9px;
+}
+
+.line-all-historic {
+  margin-top: 12px;
+  box-shadow: 2px 2px 4px black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgb(75, 75, 145);
+}
+
+.line-all-historic span {
+  display: flex;
+  align-items: center;
+  background-color: rgb(219, 218, 218);
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+.line-all-historic h4 {
+  color: white;
+  font-size: 13pt;
+}
+
+.line-all-historic p {
+  color: rgb(3, 3, 3);
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.line-all-historic li {
+  color: rgb(3, 3, 3);
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+
+.options-clients {
+  margin-left: 10px;
+  font-size: 13pt;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(75, 75, 145);
+  font-weight: 900;
+  background-color: gainsboro;
+}
+
+.options-clients option {
+  font-weight: 900;
+}
+
+.options-clients option:hover {
+  color: rgb(35, 124, 207);
+}
+
+.container-list li {
+  list-style-type: none;
+}
+
+.button-show-all-values {
+  position: relative;
+  left: 60%;
+  top: 58px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  background-color: rgb(75, 75, 145);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-show-One-values {
+  position: relative;
+  left: 40%;
+  top: 80px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  background-color: rgb(75, 75, 145);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

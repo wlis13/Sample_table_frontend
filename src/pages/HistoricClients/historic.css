@@ -1,0 +1,29 @@
+.line-historic {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.line-historic pre {
+  display: flex;
+  align-items: center;
+}
+
+.line-historic div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
+  box-shadow: 2px 2px 4px black;
+}
+
+.line-historic p {
+  margin-top: -20px;
+  word-wrap: break-word;
+  line-height: 1.7;
+}
+
+#title-name-Historic {
+  margin-left: 10px;
+}

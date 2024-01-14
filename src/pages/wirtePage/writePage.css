@@ -1,0 +1,274 @@
+input[type="text"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container-header-write-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.container-header-write-page h2 {
+  margin-left: 40px;
+}
+
+.container-body-write {
+  background-color: rgb(178, 178, 179);
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+}
+
+.container-body-write label {
+  background-color: rgb(75, 75, 145);
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container-body-write textarea {
+  height: 100px;
+  font-size: 12pt;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+.container-body-write p {
+  color: white;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.container-body-write input {
+  font-size: 12pt;
+  padding: 8px 10px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.show-message {
+  position: absolute;
+  top: 140px;
+  right: 50%;
+  transform: translateX(50%);
+
+}
+
+#view-table {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: rgb(75, 75, 133);
+  color: white;
+  border-radius: 5px;
+  margin-right: 45px;
+}
+
+.colors-area {
+  display: flex;
+}
+
+.colors-area div {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
+
+#update-field {
+  display: flex;
+}
+
+.select-name-write-page {
+  font-size: 12pt;
+  padding: 8px 12px;
+  background-color: rgb(75, 75, 145);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select-name-write-page option {
+  font-weight: 600;
+  height: 20px;
+}
+
+.select-name-write-page option:hover {
+  color: rgb(73, 132, 187);
+}
+
+.select-name-write-page {
+  margin-left: 15px;
+}
+
+#cover-update {
+  background-color: rgb(75, 75, 145);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 240px;
+  border-radius: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 140px;
+}
+
+.label-classification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 62px;
+}
+
+.label-classification div {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 5px;
+  margin: 6px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-bottom: -1px;
+  transition: transform 0.2s ease;
+}
+
+.label-classification div:active {
+  transform: scale(0.8);
+}
+
+.label-classification p {
+  position: absolute;
+  top: 3px;
+  margin-top: 5px;
+}
+
+.label-classification img {
+  width: 35px;
+}
+
+.inspection-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inspection-label aside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.inspection-label div {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-radius: 50%;
+}
+
+#form-pending {
+  display: flex;
+  height: 100px;
+  margin-bottom: 0px;
+  align-items: center;
+  position: relative;
+  margin-top: -25px;
+  border-top: 2px solid white;
+  padding-top: 5px;
+}
+
+#form-pending h3 {
+  position: absolute;
+  top: -10px;
+  right: 60px;
+  color: white;
+}
+
+#input-pending-text {
+  position: absolute;
+  width: 40px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  background-color: rgb(85, 85, 190);
+  color: white;
+  font-weight: 600;
+}
+
+.aside-pendig-select {
+  width: 50px;
+  height: 85px;
+  display: flex;
+  position: relative;
+  top: 29px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-pendig-select button {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+#button-up-pendig {
+  position: absolute;
+  top: 0px;
+
+}
+
+#button-down-pending {
+  position: absolute;
+  bottom: 0px;
+
+}
+
+#cover-update textarea {
+  padding: 10px;
+}
+
+#add-button {
+  position: absolute;
+  top: 168px;
+  right: 370px;
+  width: 10%;
+  padding: 8px 12px;
+  background-color: rgb(209, 127, 33);
+  color: white;
+  font-size: 12pt;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-left: 15px;
+  cursor: pointer;
+}

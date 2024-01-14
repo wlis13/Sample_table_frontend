@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mukta&display=swap');
+
+.container-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#image-return {
+  position: absolute;
+  width: 50px;
+  top: 0px;
+  left: 10px;
+  cursor: pointer;
+}
+
+#image-logo {
+  width: 300px;
+  margin-left: 80px;
+}
+
+.container-header div {
+  margin-right: 50px;
+  display: flex;
+}
+
+.container-header button {
+  position: absolute;
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  top: 10px;
+  left: 93%;
+  cursor: pointer;
+}
+
+.container-header p {
+  position: absolute;
+  top: 0px;
+  left: 78%;
+}
+
+.link-header-main {
+  text-decoration: none;
+  color: rgb(74, 74, 158);
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.link-header-main:hover {
+  color: rgb(40, 40, 151);
+}
+
+.container-header-links {
+  display: flex;
+}
+
+#title-funil {
+  font-size: 65pt;
+  font-family: 'Mukta', sans-serif;
+  color: rgb(47, 47, 85);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}

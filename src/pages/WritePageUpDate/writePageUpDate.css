@@ -1,0 +1,386 @@
+.container-header-write-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.container-header-write-page h2 {
+  margin-left: 40px;
+}
+
+.container-body-write {
+  position: relative;
+  background-color: rgb(178, 178, 179);
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  height: 400px;
+}
+
+.container-body-write label {
+  background-color: rgb(75, 75, 145);
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container-body-write textarea {
+  height: 100px;
+  font-size: 13pt;
+  margin-top: 8px;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.container-body-write p {
+  color: white;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.container-body-write input {
+  font-size: 12pt;
+  padding: 8px 10px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+
+.container-buttons-send-and-update {
+  display: flex;
+}
+
+#send-button {
+  position: absolute;
+  top: 168px;
+  right: 370px;
+  width: 10%;
+  padding: 8px 12px;
+  background-color: rgb(209, 127, 33);
+  color: white;
+  font-size: 12pt;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.show-message {
+  position: absolute;
+  top: 140px;
+  right: 50%;
+  transform: translateX(50%);
+
+}
+
+#view-table {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: rgb(75, 75, 133);
+  color: white;
+  border-radius: 5px;
+  margin-right: 95px;
+}
+
+.colors-area {
+  display: flex;
+}
+
+.colors-area div {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
+
+#update-field {
+  display: flex;
+}
+
+.select-name-write-page {
+  font-size: 12pt;
+  padding: 8px 12px;
+  background-color: rgb(75, 75, 145);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select-name-write-page option {
+  font-weight: 600;
+  height: 20px;
+}
+
+.select-name-write-page option:hover {
+  color: rgb(73, 132, 187);
+}
+
+.select-name-write-page {
+  margin-left: 15px;
+}
+
+#cover-update {
+  background-color: rgb(75, 75, 145);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 240px;
+  border-radius: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 140px;
+}
+
+#cover-update textarea {
+  padding: 10px;
+}
+
+#paragraph-demand-add {
+  margin-top: 10px;
+}
+
+#label-statics-values {
+  height: 137px;
+}
+
+.container-label-aside {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#first-div-aside textarea {
+  padding: 5px;
+}
+
+.colors-area-prev {
+  display: flex;
+}
+
+.colors-area-prev div {
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#second-div-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+#second-div-aside textarea {
+  margin-top: -10px;
+  height: 96px;
+  padding: 5px;
+}
+
+#second-div-aside h3 {
+  color: white;
+  margin-top: -8px;
+}
+
+.label-classification-update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 62px;
+}
+
+.label-classification-update div {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 5px;
+  margin: 6px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-bottom: -1px;
+  transition: transform 0.2s ease;
+}
+
+.label-classification-update div:active {
+  transform: scale(0.8);
+}
+
+.label-classification-update p {
+  position: absolute;
+  top: 3px;
+  margin-top: 5px;
+}
+
+.label-classification-update img {
+  width: 35px;
+}
+
+.inspection-label-update {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 232px;
+  margin-top: 250px;
+  left: 1012px;
+}
+
+.inspection-label-update div {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-radius: 50%;
+}
+
+#input-pending {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 310px;
+  left: 738px;
+  width: 235px;
+  height: 80px;
+}
+
+#form-pending-update {
+  display: flex;
+  height: 150px;
+  margin-bottom: 0px;
+  align-items: center;
+  position: relative;
+  padding-top: 5px;
+}
+
+#form-pending-update h3 {
+  position: absolute;
+  top: -10px;
+  right: 60px;
+  color: white;
+}
+
+#form-pending-update p {
+  position: absolute;
+  top: 35px;
+  right: 60px;
+}
+
+#input-pending-text-update {
+  position: absolute;
+  width: 40px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  background-color: rgb(85, 85, 190);
+  color: white;
+  font-weight: 600;
+  top: 25px;
+}
+
+#input-pending-number-update {
+  width: 155px;
+  margin-left: 4px;
+  margin-top: 0px;
+}
+
+.aside-pending-select {
+  width: 50px;
+  height: 75px;
+  display: flex;
+  position: relative;
+  top: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-pending-select button {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+#button-up-pending {
+  position: absolute;
+  top: 0px;
+
+}
+
+#button-down-pending {
+  position: absolute;
+  bottom: 0px;
+
+}
+
+#container-colors-and-field {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1920px) {
+  .inspection-label-update {
+    left: 1000px;
+    width: 228px;
+  }
+
+  #input-pending {
+    width: 228px;
+  }
+
+  #input-pending input {
+    width: 210px;
+  }
+
+  #field-last-update {
+    margin-top: -45px;
+    width: 220px;
+  }
+
+  #div-last-update {
+    margin-top: -70px;
+  }
+
+  #form-pending-update {
+    position: absolute;
+  }
+
+  #input-pending-text-update {
+    width: 40px !important;
+  }
+
+  #input-pending-number-update {
+    width: 155px !important;
+  }
+}
