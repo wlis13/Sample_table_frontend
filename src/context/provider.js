@@ -31,7 +31,7 @@ function Provider({ children }) {
   const [nameClientClickTable, setNameClientClickTable] = useState({});
 
   async function getAllClients() {
-    const url = "https://table-lalef.vercel.app"
+    const url = "https://sample-table-backend.vercel.app/"
     const promise = await fetch(url, {
       method: "GET",
       headers: {
@@ -44,7 +44,7 @@ function Provider({ children }) {
   };
 
   async function getOneClient() {
-    const url = "https://table-lalef.vercel.app"
+    const url = "https://sample-table-backend.vercel.app/"
     const promise = await fetch(url, {
       method: "GET",
       headers: {
@@ -58,7 +58,7 @@ function Provider({ children }) {
 
   const [allUsers, setAllUsers] = useState([]);
   async function getAllUser() {
-    const url = "https://table-lalef.vercel.app/all-users";
+    const url = "https://sample-table-backend.vercel.app/all-users";
     const promise = await fetch(url, {
       method: "GET",
       headers: {

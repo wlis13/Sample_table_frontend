@@ -1,4 +1,5 @@
 .container-main-login {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,6 +80,16 @@
   background-color: white;
   padding: 7px 10px;
   border-radius: 4px;
+}
+
+#link_register {
+  position: absolute;
+  top: 65%;
+}
+
+#not_exist_user {
+  position: absolute;
+  top: 30%;
 }
 
 @media (min-width: 1200px) {

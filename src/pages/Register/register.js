@@ -48,7 +48,7 @@ function Register() {
   }
 
   async function registerUser() {
-    const url = "https://table-lalef.vercel.app/insert-user";
+    const url = "https://sample-table-backend.vercel.app/insert-user";
     const promise = await fetch(url, {
       method: "POST",
       headers: {

@@ -42,7 +42,7 @@ function Header() {
 
   function verifyUserAndShowLink() {
     const getUserInfo = JSON.parse(localStorage.getItem("user-lalef"));
-    if (getUserInfo.role === "admin") {
+    if (getUserInfo.role !== null) {
       return (
         <div id="between-links">
           <Link className="link-header-main" to="/register">Registro</Link>

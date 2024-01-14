@@ -17,7 +17,7 @@ function AllHistorics() {
   const [nameForFilter, setNameForFilter] = useState("");
 
   async function getAllClient() {
-    const url = "https://table-lalef.vercel.app"
+    const url = "https://sample-table-backend.vercel.app/"
     const promise = await fetch(url, {
       method: "GET",
       headers: {

@@ -425,14 +425,14 @@ function TableClients() {
         </button>
         <a
           id='link-to-links-page'
-          href='https://manager-links-lalef-front-end.vercel.app'
+          href='https://www.linkedin.com/in/wlisses-fernando-dev'
           target='_blank' rel="noopener noreferrer"
         >
-          Acessar Quadro de links
+          Meu Linkedin
         </a>
         <a
           id='link-for-calendly'
-          href='https://calendly.com/grupozmfasia/reuniao?month=2023-08'
+          href='https://calendly.com/atendimentolalef'
           target='_blank' rel="noopener noreferrer"
         >
           Marcar Reunião

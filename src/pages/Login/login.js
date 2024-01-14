@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./login.css";
 import MyContext from "../../context/myContext";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 function Login() {
 
@@ -47,18 +47,18 @@ function Login() {
     setNotUser("Usuário não existe!");
     setTimeout(() => {
       setNotUser("");
-    }, 2000);
+    }, 4000);
   }
 
   function invalidPassword() {
     setNotUser("Password Inválido!");
     setTimeout(() => {
       setNotUser("");
-    }, 2000);
+    }, 4000);
   }
 
   async function fetchLogin() {
-    const url = "https://table-lalef.vercel.app/login-user";
+    const url = "https://sample-table-backend.vercel.app/login-user";
     const promise = await fetch(url, {
       method: "POST",
       headers: {
@@ -107,7 +107,8 @@ function Login() {
           />
         </label>
         <button onClick={fetchLogin} type="button">Entrar</button>
-        <p>{notUser}</p>
+        <p id="link_register">Não tem conta? <Link to="/register">Registre-se</Link></p>
+        <p id="not_exist_user">{notUser}</p>
       </div>
     </div>
   );

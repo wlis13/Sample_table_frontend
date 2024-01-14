@@ -72,7 +72,7 @@ function WritePage() {
       alert("Por favor preencha o nome do Cliente e a Demanda.");
       return;
     }
-    const url = "https://table-lalef.vercel.app/insert/client";
+    const url = "https://sample-table-backend.vercel.app/insert/client";
     const response = await fetch(url, {
       method: "POST",
       headers: {

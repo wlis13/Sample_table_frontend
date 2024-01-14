@@ -10,7 +10,7 @@ import bronze from "../wirtePage/images/bronze.png";
 import checkPositiveSelectUpdate from "../wirtePage/images/check-positive-select.png";
 import listCurrency from "../data/listCurrency";
 import backgroundDescription from "../TableClients/backgroundRed";
-import timeLimit from "../TableClients/images/time-limit-three.png";
+// import timeLimit from "../TableClients/images/time-limit-three.png";
 
 function WritePageUpDate() {
 
@@ -76,7 +76,7 @@ function WritePageUpDate() {
     const dataHours = new Date().toLocaleString().replace(",", "");
     if (getValues.update === "") {
       const getUpdate = allNameClients.find((cli) => cli.client === getValues.client);
-      const url = "https://table-lalef.vercel.app/insert/client";
+      const url = "https://sample-table-backend.vercel.app/insert/client";
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -101,7 +101,7 @@ function WritePageUpDate() {
       }
       getAllClients();
     } else {
-      const url = "https://table-lalef.vercel.app/insert/client";
+      const url = "https://sample-table-backend.vercel.app/insert/client";
       const response = await fetch(url, {
         method: "POST",
         headers: {

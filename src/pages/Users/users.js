@@ -7,7 +7,7 @@ function Users() {
   const [getAllUsers, setAllUsers] = useState([]);
 
   async function fetchUsers() {
-    const url = "https://table-lalef.vercel.app/all-users";
+    const url = "https://sample-table-backend.vercel.app/all-users";
     const promise = await fetch(url, {
       method: "GET",
       headers: {
@@ -20,7 +20,7 @@ function Users() {
   }
 
   async function fetchDeleteUser(id) {
-    const url = `https://table-lalef.vercel.app/delete-one-user/${id}`;
+    const url = `https://sample-table-backend.vercel.app/delete-one-user/${id}`;
     const promise = await fetch(url, {
       method: "DELETE",
       headers: {
